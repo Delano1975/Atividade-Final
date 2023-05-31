@@ -17,6 +17,10 @@ public class Tosa {
 		System.out.println("Preço simples: " + precoSimples);
 		System.out.println("Preço completo: " + precoCompleto);
 				
+		Cliente cliente = new Cliente();
+	
+	     cliente.ativo = "Delano Gadelha";
+
 	}
 } 
 
