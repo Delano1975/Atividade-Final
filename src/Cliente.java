@@ -1,5 +1,6 @@
 public class Cliente {
-    String nome;
+
+	String nome;
 	String cpf;
 	String ativo;
 	String inativo;
@@ -16,9 +17,4 @@ public class Cliente {
 		System.out.println("Status do Cliente: " + ativo);
 		System.out.println("Status do Cliente: " + inativo);
 	}
-
-    void clienteAtivo () {
-
-		System.out.println("Status do Cliente: " + ativo);
-	}
-}	
+}
