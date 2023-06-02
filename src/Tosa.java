@@ -22,5 +22,12 @@ public class Tosa {
 	     cliente.ativo = "Delano Gadelha";
 
 	}
-} 
+
+	void agendarBanhoETosa(String data) {
+        System.out.println("Agendando banho e tosa para a data: " + data);
+        Banho banho = new Banho();
+        banho.tipoDeBanho();
+		
+}
+
 
