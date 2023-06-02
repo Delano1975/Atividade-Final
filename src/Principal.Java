@@ -24,8 +24,4 @@ public class Principal {
 		
 		cliente.dadosDoCliente();
 		
-		Fornecedor f = new Fornecedor();
-		f.razaoSocial = "Pets felizes";
-		f.cnpj = "07.954.605/0001-60"; 
-		
-		f.dadosDoFornecedor();
+	}
