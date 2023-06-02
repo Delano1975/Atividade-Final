@@ -29,7 +29,7 @@ public class Banho {
 	}
 	 void chamarMetodoTosa() {
         if (tosa != null) {
-            tosa.metodoDaTosa(); // Chama o método implementado na classe Tosa
+            tosa.tipoDeTosa(); // Chama o método implementado na classe Tosa
         }
     }
 
