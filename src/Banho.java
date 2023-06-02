@@ -4,6 +4,7 @@ public class Banho {
 	String completo;
 	double precoSimples;
 	double precoCompleto;
+	Tosa tosa;
 	
 	void tipoDeBanho () {
 
@@ -26,4 +27,14 @@ public class Banho {
 		System.out.println("Preço simples: " + precoSimples);
 		System.out.println("Preço completo: " + precoCompleto);
 	}
+	 void chamarMetodoTosa() {
+        if (tosa != null) {
+            tosa.metodoDaTosa(); // Chama o método implementado na classe Tosa
+        }
+    }
+
+    // Método setter para atribuir uma instância da classe Tosa
+    void setTosa(Tosa tosa) {
+        this.tosa = tosa;
+    }
 }
