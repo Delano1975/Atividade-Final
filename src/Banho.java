@@ -18,4 +18,12 @@ public class Banho {
 		System.out.println("Preço completo: " + precoCompleto);
 				
 	}
+	void exibirDetalhes() {
+        
+		System.out.println("Detalhes do banho:");
+		System.out.println("Simples: " + simples);
+		System.out.println("Completo: " + completo);
+		System.out.println("Preço simples: " + precoSimples);
+		System.out.println("Preço completo: " + precoCompleto);
+	}
 }
