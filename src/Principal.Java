@@ -16,6 +16,7 @@ public class Principal {
 		banho.simples = "Shampoo";
 		
 		banho.tipoDeBanho();
+		banho.exibirDetalhes(); // Chama o novo método exibirDetalhes
 		
 		Cliente cliente = new Cliente ();
 		
